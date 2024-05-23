@@ -1,0 +1,59 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 210px;
+    background-color: #CFC1FE;
+    box-shadow: 0 10px 20px rgba(129, 0, 252, 0.2);
+    border-radius: 45px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.3;
+  }
+  
+  .light.active {
+    opacity: 1;
+  }
+  
+  .red {
+    background-color: #A62D2D;
+  }
+  
+  .yellow {
+    background-color: #FCFF26;
+  }
+  
+  .green {
+    background-color: #2ECB63;
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: white;
+    border: none;
+    color: #8100FC;
+    box-shadow: 0 10px 25px rgba(236, 0, 255, 0.1);
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: #8100FC;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: black;
+    color: white;
+    cursor: not-allowed;
+  }
